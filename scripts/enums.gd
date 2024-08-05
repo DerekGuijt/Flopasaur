@@ -1,10 +1,12 @@
+extends Node
+
 @export_enum(
-    "unknown",
-    "known",
+	"unknown",
+	"known",
 ) var tile_state
 
 @export_enum(
-    "blank",
-    "flag",
-    "qmark"
+	"blank",
+	"flag",
+	"qmark"
 ) var icon_state
