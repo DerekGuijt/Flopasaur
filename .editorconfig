@@ -1,26 +1,19 @@
+# Top-most EditorConfig file.
 root = true
 
+# Unix-style newlines with a newline ending every file.
 [*]
 charset = utf-8
 end_of_line = lf
-indent_style = tab
 insert_final_newline = true
 
-[*.{cpp,hpp,c,h,mm}]
-trim_trailing_whitespace = true
+[*.gd]
+indent_style = tab
 
-[{*.gradle,AndroidManifest.xml}]
-indent_style = space
+[*.cs]
+csharp_space_after_cast = false
 indent_size = 4
 
-[{*.py,SConstruct,SCsub}]
-indent_style = space
-indent_size = 4
-
-# YAML requires indentation with spaces instead of tabs.
-[*.{yml,yaml}]
-indent_style = space
-indent_size = 2
-
-[*.svg]
+[*.csproj]
 insert_final_newline = false
+indent_size = 2
